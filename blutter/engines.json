@@ -1,0 +1,642 @@
+{
+ "tool": "blutter",
+ "description": "Blutter Android arm64 引擎库 (Dart 2.19.6 + 3.0.0~3.13.1), 按大版本 zip 分组",
+ "arch": "android_arm64",
+ "total": 76,
+ "builtin_versions": [
+  "3.11.5",
+  "2.19.6",
+  "2.19.2",
+  "3.7.2",
+  "3.12.2",
+  "3.13.1"
+ ],
+ "zips": [
+  "blutter_219.zip",
+  "blutter_30.zip",
+  "blutter_31.zip",
+  "blutter_310.zip",
+  "blutter_311.zip",
+  "blutter_312.zip",
+  "blutter_313.zip",
+  "blutter_32.zip",
+  "blutter_33.zip",
+  "blutter_34.zip",
+  "blutter_35.zip",
+  "blutter_36.zip",
+  "blutter_37.zip",
+  "blutter_38.zip",
+  "blutter_39.zip"
+ ],
+ "engines": [
+  {
+   "dartVersion": "2.19.2",
+   "gzFile": "blutter_dartvm2.19.2_android_arm64.gz",
+   "gzSize": 1552067,
+   "gzSha256": "a4fc34ad23a38b958f382ddf7961b69b2ef0d7028a4e466e75a65b2ad8624709",
+   "zip": "blutter_219.zip",
+   "builtin": true
+  },
+  {
+   "dartVersion": "2.19.6",
+   "gzFile": "blutter_dartvm2.19.6_android_arm64.gz",
+   "gzSize": 1560342,
+   "gzSha256": "5593ac01555515e27e22f799c72923488a6858e55173da4b3c8ece1ee6d226ad",
+   "zip": "blutter_219.zip",
+   "builtin": true
+  },
+  {
+   "dartVersion": "3.0.0",
+   "gzFile": "blutter_dartvm3.0.0_android_arm64.gz",
+   "gzSize": 1561440,
+   "gzSha256": "780b02ee87aaaf2924f5a2460b12658546dc34e250886bb9dbbcd842636d8785",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.1",
+   "gzFile": "blutter_dartvm3.0.1_android_arm64.gz",
+   "gzSize": 1561437,
+   "gzSha256": "b778fa4498c373af1d4b9bf559e130f3e992713fc50b505c995adca135dfb279",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.2",
+   "gzFile": "blutter_dartvm3.0.2_android_arm64.gz",
+   "gzSize": 1561433,
+   "gzSha256": "fa390456a8de0edf21e293404f31170c821da41c44fa6c4ced243b732865d850",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.3",
+   "gzFile": "blutter_dartvm3.0.3_android_arm64.gz",
+   "gzSize": 1561049,
+   "gzSha256": "6ec68270ec0f694666e312077ec3b23108772556bb882515fe23dfa7f6468546",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.4",
+   "gzFile": "blutter_dartvm3.0.4_android_arm64.gz",
+   "gzSize": 1561027,
+   "gzSha256": "0750135b9ac2eec908183021f4bb99611bb7daac54f6d499ed4059d9efef9e1d",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.5",
+   "gzFile": "blutter_dartvm3.0.5_android_arm64.gz",
+   "gzSize": 1561050,
+   "gzSha256": "a27f94f9a0ed1578911f76be5e3adfd4846786e26c10a08670a26415dc983c7f",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.6",
+   "gzFile": "blutter_dartvm3.0.6_android_arm64.gz",
+   "gzSize": 1561049,
+   "gzSha256": "8d1026fb6408f1cad14d4b74ca590b446152699aaacd2e3e35654ed22c1428da",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.0.7",
+   "gzFile": "blutter_dartvm3.0.7_android_arm64.gz",
+   "gzSize": 1561051,
+   "gzSha256": "79ec2e39b081023662a8db042ac573c7262b75f2c1cc5383f294cb97ab6023e0",
+   "zip": "blutter_30.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.0",
+   "gzFile": "blutter_dartvm3.1.0_android_arm64.gz",
+   "gzSize": 1560596,
+   "gzSha256": "0eb3bd1a7c01412d59fb25b81b2dfa485433b366dbb497085f746646ffd3b9da",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.1",
+   "gzFile": "blutter_dartvm3.1.1_android_arm64.gz",
+   "gzSize": 1560541,
+   "gzSha256": "9e17251baf00b83d63ea7e3bb6291242c6a3bbd7e6e36e53caa58250f38d0a35",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.2",
+   "gzFile": "blutter_dartvm3.1.2_android_arm64.gz",
+   "gzSize": 1560594,
+   "gzSha256": "b8a452c9e212137b6aea97e301a9578faa661f53e0d96d7d4a933aeea9e51188",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.3",
+   "gzFile": "blutter_dartvm3.1.3_android_arm64.gz",
+   "gzSize": 1561495,
+   "gzSha256": "53e60fba047097732abef48404cea8927656ce756285fbb94c5932fa3fb46c7c",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.4",
+   "gzFile": "blutter_dartvm3.1.4_android_arm64.gz",
+   "gzSize": 1561532,
+   "gzSha256": "ab7a6839aed6708ffc13bbae73feff9df7f110d1935c305ba5e188a3bf706445",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.1.5",
+   "gzFile": "blutter_dartvm3.1.5_android_arm64.gz",
+   "gzSize": 1561532,
+   "gzSha256": "87fd0188980796548677c8545c06e459a833d81718a5dbdcc3332890568afc2f",
+   "zip": "blutter_31.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.0",
+   "gzFile": "blutter_dartvm3.2.0_android_arm64.gz",
+   "gzSize": 1578653,
+   "gzSha256": "924c3334850c345adc90fb363c2933091984840e6d6530388a56130b1917e445",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.1",
+   "gzFile": "blutter_dartvm3.2.1_android_arm64.gz",
+   "gzSize": 1578648,
+   "gzSha256": "52b174e99a8d0eebf45bd1823bf91bb17896b09506f489432969d1d32233730a",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.2",
+   "gzFile": "blutter_dartvm3.2.2_android_arm64.gz",
+   "gzSize": 1578653,
+   "gzSha256": "0d20ae5ddec8d968af88378fcd4b999729ec83a164ff90a873d045445bed6ed4",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.3",
+   "gzFile": "blutter_dartvm3.2.3_android_arm64.gz",
+   "gzSize": 1578699,
+   "gzSha256": "c6b272880d8f02912a9d6863b72bd4c4855fe22b24605e02071e5f9b23cb18a9",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.4",
+   "gzFile": "blutter_dartvm3.2.4_android_arm64.gz",
+   "gzSize": 1578651,
+   "gzSha256": "d5eaae07eda533604e61b5e5e982e8377675f67dd06d5849476db21df4e591a2",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.5",
+   "gzFile": "blutter_dartvm3.2.5_android_arm64.gz",
+   "gzSize": 1578660,
+   "gzSha256": "4d7d270a7148ba7d317ba0a1933d7e4a91229e1fd926442e0ed56c5d63783c38",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.2.6",
+   "gzFile": "blutter_dartvm3.2.6_android_arm64.gz",
+   "gzSize": 1578652,
+   "gzSha256": "5e455db651945189297d6dfff1e8369fa3203187fdf969c3b8f75d4fb53d631f",
+   "zip": "blutter_32.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.3.0",
+   "gzFile": "blutter_dartvm3.3.0_android_arm64.gz",
+   "gzSize": 1576488,
+   "gzSha256": "af36eb0872cf99c8966b7b170a8e8d88cc6f4b046e75c7ea6a1e94e7fb70e37f",
+   "zip": "blutter_33.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.3.1",
+   "gzFile": "blutter_dartvm3.3.1_android_arm64.gz",
+   "gzSize": 1576494,
+   "gzSha256": "768357d8e5c07bbbb9eabc50134b4a6401833a7b9862ddce52f700c6ac241668",
+   "zip": "blutter_33.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.3.2",
+   "gzFile": "blutter_dartvm3.3.2_android_arm64.gz",
+   "gzSize": 1576490,
+   "gzSha256": "5bd0c4522b9294050f42ca85ec721587bb9f002361dde96e66d469e38338ed14",
+   "zip": "blutter_33.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.3.3",
+   "gzFile": "blutter_dartvm3.3.3_android_arm64.gz",
+   "gzSize": 1576489,
+   "gzSha256": "8bf8d38afa8f6aba31065fcc00b58cb975bc8215996fb699f78e5ceb082de8cc",
+   "zip": "blutter_33.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.3.4",
+   "gzFile": "blutter_dartvm3.3.4_android_arm64.gz",
+   "gzSize": 1576492,
+   "gzSha256": "e0252d1bec77e85c81d1dc3c5b5eace09ed45c96b173d6429a86072ab1e0a7cb",
+   "zip": "blutter_33.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.4.0",
+   "gzFile": "blutter_dartvm3.4.0_android_arm64.gz",
+   "gzSize": 1578144,
+   "gzSha256": "0c3cca0162b40c5f4d70b7a57eb3ba6859bad9856271b3e21cbe1764c4cec8ce",
+   "zip": "blutter_34.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.4.1",
+   "gzFile": "blutter_dartvm3.4.1_android_arm64.gz",
+   "gzSize": 1578154,
+   "gzSha256": "ba260ad35049c4cfd8bec2a40b411e560fb1b4d2de2c9b4edb86fc01a0b57a32",
+   "zip": "blutter_34.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.4.2",
+   "gzFile": "blutter_dartvm3.4.2_android_arm64.gz",
+   "gzSize": 1578152,
+   "gzSha256": "5af7ec089195aea41216096af9aea1eba2f3c605ba9e5b7539662ce57e15637c",
+   "zip": "blutter_34.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.4.3",
+   "gzFile": "blutter_dartvm3.4.3_android_arm64.gz",
+   "gzSize": 1578145,
+   "gzSha256": "64b8e1215ceaf093aec17bae51f6bab36e2dce3917f81cc11c812b9c1da43db3",
+   "zip": "blutter_34.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.4.4",
+   "gzFile": "blutter_dartvm3.4.4_android_arm64.gz",
+   "gzSize": 1578156,
+   "gzSha256": "a8b44f71ab4a30a4645bd07cef8b26a3b0bd76ba42852e64aa90e02868868fa0",
+   "zip": "blutter_34.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.5.0",
+   "gzFile": "blutter_dartvm3.5.0_android_arm64.gz",
+   "gzSize": 1597890,
+   "gzSha256": "2c3dff650150b3e50583f680ba9b5c5866dd4f91ba4477b579fbf25115b2bfb7",
+   "zip": "blutter_35.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.5.1",
+   "gzFile": "blutter_dartvm3.5.1_android_arm64.gz",
+   "gzSize": 1597885,
+   "gzSha256": "03e7af4e0ba2c64a73aee5375c23fe773f84d46937d326d3bb7e7a5f330f7c61",
+   "zip": "blutter_35.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.5.2",
+   "gzFile": "blutter_dartvm3.5.2_android_arm64.gz",
+   "gzSize": 1597886,
+   "gzSha256": "93b26330f47839258884fe125a6372d899da25098d506c643284e8750e685056",
+   "zip": "blutter_35.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.5.3",
+   "gzFile": "blutter_dartvm3.5.3_android_arm64.gz",
+   "gzSize": 1597888,
+   "gzSha256": "2f99b129051d90d7f17747997a1998de7cd0c68cb62a3951d24de0de8172f575",
+   "zip": "blutter_35.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.5.4",
+   "gzFile": "blutter_dartvm3.5.4_android_arm64.gz",
+   "gzSize": 1597886,
+   "gzSha256": "3b1b4e4e59c87a04a9806e486b93114b518f0e711c8ae85a4bdf2d6a54d02ce3",
+   "zip": "blutter_35.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.6.0",
+   "gzFile": "blutter_dartvm3.6.0_android_arm64.gz",
+   "gzSize": 1616146,
+   "gzSha256": "e7c7474c57f1ca1dfd3fc6bfa380254279bf57445b9b3c41ab82d8075ea44dc7",
+   "zip": "blutter_36.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.6.1",
+   "gzFile": "blutter_dartvm3.6.1_android_arm64.gz",
+   "gzSize": 1616150,
+   "gzSha256": "81ed334b29f94d0c03b97cbe36e2614da1aa3017963a72f0e8c43cd8485cec64",
+   "zip": "blutter_36.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.6.2",
+   "gzFile": "blutter_dartvm3.6.2_android_arm64.gz",
+   "gzSize": 1616120,
+   "gzSha256": "498a024f0d74399bddb9fd173233bc06704e390e81a8428948463d04835fb0af",
+   "zip": "blutter_36.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.7.0",
+   "gzFile": "blutter_dartvm3.7.0_android_arm64.gz",
+   "gzSize": 1614122,
+   "gzSha256": "1b4c00091466c2396959f39499336cb92a5cc63a8d8878726c7ecdae2a56253f",
+   "zip": "blutter_37.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.7.1",
+   "gzFile": "blutter_dartvm3.7.1_android_arm64.gz",
+   "gzSize": 1614154,
+   "gzSha256": "1021f131cfb9c9590cfabae4cfa86ee0477fd4d4dd1426824e28da6ce5400528",
+   "zip": "blutter_37.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.7.2",
+   "gzFile": "blutter_dartvm3.7.2_android_arm64.gz",
+   "gzSize": 1614157,
+   "gzSha256": "f7dacf9a4f9751897342cecf75aa1c53ec3c852958658d9fda349fa1eacd9258",
+   "zip": "blutter_37.zip",
+   "builtin": true
+  },
+  {
+   "dartVersion": "3.7.3",
+   "gzFile": "blutter_dartvm3.7.3_android_arm64.gz",
+   "gzSize": 1614158,
+   "gzSha256": "ff7869d2cde4f580676adf1332ca61fc1735aef6e6b5ce4f80d5dd7958d20d95",
+   "zip": "blutter_37.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.8.0",
+   "gzFile": "blutter_dartvm3.8.0_android_arm64.gz",
+   "gzSize": 1614297,
+   "gzSha256": "d3ad72d13ffd5f15609bb2fdb3847cf83d7b92e3a8978451934dc5a346e4b6c4",
+   "zip": "blutter_38.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.8.1",
+   "gzFile": "blutter_dartvm3.8.1_android_arm64.gz",
+   "gzSize": 1614299,
+   "gzSha256": "e809745d4a269243da2c021f16be04b78a61b80b066f8d25c467d4380426f311",
+   "zip": "blutter_38.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.8.2",
+   "gzFile": "blutter_dartvm3.8.2_android_arm64.gz",
+   "gzSize": 1614296,
+   "gzSha256": "546dbc34fbc47735d460e561a2ee770c692d106bf606b0420a9c05197fae12a7",
+   "zip": "blutter_38.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.8.3",
+   "gzFile": "blutter_dartvm3.8.3_android_arm64.gz",
+   "gzSize": 1614367,
+   "gzSha256": "5d95ca56e599eb285783d26000453446dd3dfbd3eab45014c7fd0bf7d6f8c6a7",
+   "zip": "blutter_38.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.9.0",
+   "gzFile": "blutter_dartvm3.9.0_android_arm64.gz",
+   "gzSize": 1568242,
+   "gzSha256": "3ac5a4bd7ed93d1276356bc19bc2f5875c5bac05079ea2425d728ff32821804f",
+   "zip": "blutter_39.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.9.1",
+   "gzFile": "blutter_dartvm3.9.1_android_arm64.gz",
+   "gzSize": 1568236,
+   "gzSha256": "49968f66f29e80776be89b4835b832eecb89a8da6fc3a4e57adbc9a03de7b1bc",
+   "zip": "blutter_39.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.9.2",
+   "gzFile": "blutter_dartvm3.9.2_android_arm64.gz",
+   "gzSize": 1568243,
+   "gzSha256": "14d1093e1eaef17fd05959aefd4b705837189672623b15999f058e557034dc44",
+   "zip": "blutter_39.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.9.3",
+   "gzFile": "blutter_dartvm3.9.3_android_arm64.gz",
+   "gzSize": 1568200,
+   "gzSha256": "71bcd4a4ad5fefdf46e3a8595ab85e46c44ad795d4ce98851a40c5002371d3d1",
+   "zip": "blutter_39.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.9.4",
+   "gzFile": "blutter_dartvm3.9.4_android_arm64.gz",
+   "gzSize": 1568241,
+   "gzSha256": "a930d893e7d308bfdbc886adae35e51b0573c19b6314bbb43ccb2045824cebf3",
+   "zip": "blutter_39.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.0",
+   "gzFile": "blutter_dartvm3.10.0_android_arm64.gz",
+   "gzSize": 1583863,
+   "gzSha256": "3def34de3476669dbfd86a18997d64cb985b4636b71b39da4b8c06ff43b561e5",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.1",
+   "gzFile": "blutter_dartvm3.10.1_android_arm64.gz",
+   "gzSize": 1583858,
+   "gzSha256": "354e7e21df73ac8991d1d05f7d4197cc58b7ab21a8b1e8e5589dcb7bf8679393",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.2",
+   "gzFile": "blutter_dartvm3.10.2_android_arm64.gz",
+   "gzSize": 1583857,
+   "gzSha256": "7d9da574e616ccef392edf4351d9ff1f7656d80c3892c4147c68cff323b80494",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.3",
+   "gzFile": "blutter_dartvm3.10.3_android_arm64.gz",
+   "gzSize": 1583865,
+   "gzSha256": "a32cc2e4887347bcbeb1d28456b229b6c742232ee5b66c4c43dbd1a32230f0bd",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.4",
+   "gzFile": "blutter_dartvm3.10.4_android_arm64.gz",
+   "gzSize": 1583861,
+   "gzSha256": "2cd825684693b220b37942a62417cdf55cd153c0e19b389a533ded6470f13403",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.5",
+   "gzFile": "blutter_dartvm3.10.5_android_arm64.gz",
+   "gzSize": 1583859,
+   "gzSha256": "2ec95f7a3f8669596f0a7b3b3e6f921e56eb02ca1d3992e66a01db44878a6719",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.6",
+   "gzFile": "blutter_dartvm3.10.6_android_arm64.gz",
+   "gzSize": 1583858,
+   "gzSha256": "506c9b953e260962c1e448a4b4c7880fb7dbb051a9dc292075e6674f6a2a9dba",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.7",
+   "gzFile": "blutter_dartvm3.10.7_android_arm64.gz",
+   "gzSize": 1583859,
+   "gzSha256": "2d1f9ac4c5a4ab7965e5e2187d3d4c8d7f654c63cf7057b8472ae5318381a9e6",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.8",
+   "gzFile": "blutter_dartvm3.10.8_android_arm64.gz",
+   "gzSize": 1583863,
+   "gzSha256": "ff374db41207f514dbf746431fd56bcaf9e26f56ea9f7e2fd46a7ce39a8ff38d",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.10.9",
+   "gzFile": "blutter_dartvm3.10.9_android_arm64.gz",
+   "gzSize": 1583860,
+   "gzSha256": "fde2ce5a95eb361c35c0755de4993021e095658d7ab74dc15d4ba4178ee8729e",
+   "zip": "blutter_310.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.0",
+   "gzFile": "blutter_dartvm3.11.0_android_arm64.gz",
+   "gzSize": 1596183,
+   "gzSha256": "097136e4da49a27a9b6f4eb634e91c59611f31b513930589990cfa5848165a6c",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.1",
+   "gzFile": "blutter_dartvm3.11.1_android_arm64.gz",
+   "gzSize": 1596195,
+   "gzSha256": "473cdc93b65736b7df7fdb5ea47e2ed540a05b0f2ce4dde87e06988570cefb8a",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.2",
+   "gzFile": "blutter_dartvm3.11.2_android_arm64.gz",
+   "gzSize": 1596194,
+   "gzSha256": "4e541538868c5f0c9ea95e2abaef82af25942ab3bb5490aed2af4d0e06ba1128",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.3",
+   "gzFile": "blutter_dartvm3.11.3_android_arm64.gz",
+   "gzSize": 1596196,
+   "gzSha256": "8fe425d5287abb92a9d5291ae40a6de69dfe6787eaad86fc151565f7bc1ea590",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.4",
+   "gzFile": "blutter_dartvm3.11.4_android_arm64.gz",
+   "gzSize": 1596195,
+   "gzSha256": "e2be5f9dd03948efe53587b35d37bb1acd4e5ccce7032b9db702663f310e15d3",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.11.5",
+   "gzFile": "blutter_dartvm3.11.5_android_arm64.gz",
+   "gzSize": 1596238,
+   "gzSha256": "e1e449629b048eed9f9e7bf2ba1e27c83dc1da9cf4743d0de17754480dcb5e6d",
+   "zip": "blutter_311.zip",
+   "builtin": true
+  },
+  {
+   "dartVersion": "3.11.6",
+   "gzFile": "blutter_dartvm3.11.6_android_arm64.gz",
+   "gzSize": 1596186,
+   "gzSha256": "270d289773180073a5c671d91c1215761d1519defe95dd1e4d7b72042673ef81",
+   "zip": "blutter_311.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.12.0",
+   "gzFile": "blutter_dartvm3.12.0_android_arm64.gz",
+   "gzSize": 1645448,
+   "gzSha256": "71eafb93f793863fa2aed9fd745c5af3b15fe41b154c167751ff831d338fa13a",
+   "zip": "blutter_312.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.12.1",
+   "gzFile": "blutter_dartvm3.12.1_android_arm64.gz",
+   "gzSize": 1645257,
+   "gzSha256": "6f3835585cefeb6b63aae0369a982078a33aca51b0d8bdeaf215921a4b841fad",
+   "zip": "blutter_312.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.12.2",
+   "gzFile": "blutter_dartvm3.12.2_android_arm64.gz",
+   "gzSize": 1645311,
+   "gzSha256": "077acc735dd13c4e8cb5ef0e05f90042a64f69948bc15e3db25b35bd6f98e4a2",
+   "zip": "blutter_312.zip",
+   "builtin": true
+  },
+  {
+   "dartVersion": "3.13.0",
+   "gzFile": "blutter_dartvm3.13.0_android_arm64.gz",
+   "gzSize": 1632910,
+   "gzSha256": "4348beecea93f7933bdc6bc92fb8f76f0b353cddc6e105fc6784036d9aaf2925",
+   "zip": "blutter_313.zip",
+   "builtin": false
+  },
+  {
+   "dartVersion": "3.13.1",
+   "gzFile": "blutter_dartvm3.13.1_android_arm64.gz",
+   "gzSize": 1632905,
+   "gzSha256": "7dc231cfae84037c52f76bc7b527e38ce969acc48d9f0d4f06ba57588e22f631",
+   "zip": "blutter_313.zip",
+   "builtin": true
+  }
+ ],
+ "note": "仓库扁平结构: 所有 zip 和 engines.json 放仓库根目录"
+}

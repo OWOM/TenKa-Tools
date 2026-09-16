@@ -1,0 +1,115 @@
+{
+  "tool": "termux",
+  "description": "Termux 完全版 (基础 + openjdk-21 + apksigner), openjdk 分卷(parts/)因GitHub 100MB限制",
+  "arch": "aarch64",
+  "total_size_mb": 133.0,
+  "openjdk_split": {
+    "note": "openjdk-21 分 2 卷 (part_aa/part_ab), 恢复时自动合并",
+    "parts": 2
+  },
+  "packages": [
+    {
+      "file": "manifest.json",
+      "size": 2810,
+      "sizeMB": 0.0,
+      "sha256": "19fe74c16927e2a199b8bdf75fb82226f71ee872e7d51977efcfd61f4c553f1c"
+    },
+    {
+      "file": "README.md",
+      "size": 1119,
+      "sizeMB": 0.0,
+      "sha256": "7e11bf1681626b278d6733c9f88fa227d6cf2ae4bfef3957060603067c932c87"
+    },
+    {
+      "file": "RESTORE_GUIDE.md",
+      "size": 1709,
+      "sizeMB": 0.0,
+      "sha256": "746bd320568e2ff3ba7d65b6cea83a600db6a7cd237734f61e6e8a3582d7afdf"
+    },
+    {
+      "file": "bootstrap-aarch64.zip",
+      "size": 30735824,
+      "sizeMB": 29.31,
+      "sha256": "738a14ab04c9b9ca02e06d32733960cebbb5221586031ebcb978eda65c6f8adc"
+    },
+    {
+      "file": "restore_termux.sh",
+      "size": 5544,
+      "sizeMB": 0.01,
+      "sha256": "95880c95e708f257b94b733c6f35ce61451ffff87eed2b710f788c3a989e9537"
+    },
+    {
+      "file": "pool/main/a/apksigner/apksigner_37.0.0_all.deb",
+      "size": 1069688,
+      "sizeMB": 1.02,
+      "sha256": "d281f9836a2663acf5917ca93748ffc84780be3f383734e3fc4d642ea33f6d63"
+    },
+    {
+      "file": "pool/main/a/alsa-plugins/alsa-plugins_1.2.12-1_aarch64.deb",
+      "size": 25604,
+      "sizeMB": 0.02,
+      "sha256": "98317be934cedd3006d6c5796b727a907ff4ab53465ee7582bfccc8ac934aa3b"
+    },
+    {
+      "file": "pool/main/o/openjdk-21/parts/openjdk-21.part_aa",
+      "size": 53477376,
+      "sizeMB": 51.0,
+      "sha256": "b26e2df9c4568803dd2d2690e8cf27ec714e88ba63297e031850ada369dd6b07"
+    },
+    {
+      "file": "pool/main/o/openjdk-21/parts/openjdk-21.part_ab",
+      "size": 52654788,
+      "sizeMB": 50.22,
+      "sha256": "71294278ae97e8402a16c1f941d5405dc566c2aacb2a9ab5798ee93f323decc9"
+    },
+    {
+      "file": "pool/main/liba/libandroid-shmem/libandroid-shmem_0.7_aarch64.deb",
+      "size": 7216,
+      "sizeMB": 0.01,
+      "sha256": "0da3a24d558b93c92bcf8d611e0826a99ff96e396b148e6cdf33b47c47c57ff6"
+    },
+    {
+      "file": "pool/main/liba/libandroid-spawn/libandroid-spawn_0.3_aarch64.deb",
+      "size": 15216,
+      "sizeMB": 0.01,
+      "sha256": "7988fa788ef48ab5da9660443905a2e4099ac36221739d72f5c39acc644b4d1c"
+    },
+    {
+      "file": "pool/main/libi/libiconv/libiconv_1.19_aarch64.deb",
+      "size": 562724,
+      "sizeMB": 0.54,
+      "sha256": "fe9481b1dc101c6c3552943f25435109fd522aecc615ae49594f9fbee863bb37"
+    },
+    {
+      "file": "pool/main/libj/libjpeg-turbo/libjpeg-turbo_3.2.0_aarch64.deb",
+      "size": 453600,
+      "sizeMB": 0.43,
+      "sha256": "e6339075bcde28b4902d5a51f4063164834abfd2fa115e881ae637a34585e54f"
+    },
+    {
+      "file": "pool/main/z/zlib/zlib_1.3.2_aarch64.deb",
+      "size": 62840,
+      "sizeMB": 0.06,
+      "sha256": "75e7d0af17fcc3b40004309fdc00a1ddb9ae08346dce5e269902c34ac3966ac9"
+    },
+    {
+      "file": "pool/main/l/littlecms/littlecms_2.19.1_aarch64.deb",
+      "size": 143396,
+      "sizeMB": 0.14,
+      "sha256": "274f732a186563beca204f5d016d30cac8e5c24f7c4395b60881f9613eddf1a1"
+    },
+    {
+      "file": "pool/main/c/ca-certificates-java/ca-certificates-java_1:2026.08.13_all.deb",
+      "size": 96184,
+      "sizeMB": 0.09,
+      "sha256": "84e032018eb43ac32144683a363620be67ba592289dc4f3a7c19f8b8f2adad9d"
+    },
+    {
+      "file": "pool/main/c/ca-certificates/ca-certificates_1:2026.08.13_all.deb",
+      "size": 105404,
+      "sizeMB": 0.1,
+      "sha256": "8e894fb885da738b4ca9a7932703e414d730fa32e78aba33046a747822547d5a"
+    }
+  ],
+  "note": "部署: 下载全部 → restore_termux.sh 自动合并分卷 + 解包 + 安装"
+}
